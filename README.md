@@ -1,4 +1,4 @@
-# SCAR-GS: SCalable ARticulated 3D Gaussian Splatting
+# SCAR-GS: Scene-level Contrastive Articulated Reconstruction via Actionable Semantic 3D Gaussian Splatting
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch 2.0+](https://img.shields.io/badge/pytorch-2.0+-red.svg)](https://pytorch.org/)
