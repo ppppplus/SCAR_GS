@@ -5,6 +5,7 @@
 [![CUDA 11.8+](https://img.shields.io/badge/cuda-11.8+-green.svg)](https://developer.nvidia.com/cuda-downloads)
 [![License](https://img.shields.io/badge/license-Research-orange.svg)](LICENSE.md)
 
+**[🎥 Full Video](Videolink)** | **[📊 Dataset Download](Datasetlink)** | **[📄 Paper (Coming Soon)](#)**
 **SCAR-GS** is a novel framework for reconstructing and animating articulated objects from RGB-D sequences using 3D Gaussian Splatting. Our method automatically discovers articulated joints, learns per-Gaussian mobility, and generates photorealistic animations with dual quaternion-based articulation.
 
 ---
@@ -28,7 +29,7 @@ Follow the system's performance across different stages, from full end-to-end de
 ### 2. Simulation Modeling
 **Description:** High-fidelity articulated object modeling and reconstruction within a controlled simulation environment.
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/0005878d-892b-48d7-ac30-7da6905b3faf" width="100%" controls muted>
+  <video src="https://github.com/user-attachments/assets/0005878d-892b-48d7-ac30-7da6905b3faf" width="100%" controls muted autoplay loop>
     Your browser does not support the video tag.
   </video>
 </p>
@@ -38,7 +39,7 @@ Follow the system's performance across different stages, from full end-to-end de
 ### 3. Real-World Modeling
 **Description:** Robust reconstruction using real sensor data (RGB-D/LiDAR) capturing complex articulated objects in the wild.
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/55425cde-f360-47c6-a057-4b9373db6c16" width="100%" controls muted>
+  <video src="https://github.com/user-attachments/assets/55425cde-f360-47c6-a057-4b9373db6c16" width="100%" controls muted autoplay loop>
     Your browser does not support the video tag.
   </video>
 </p>
@@ -48,7 +49,7 @@ Follow the system's performance across different stages, from full end-to-end de
 ### 4. Real-World Operation
 **Description:** Final deployment on physical hardware, demonstrating real-time response and operational stability.
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/bec02b5e-2e3f-4113-aa5a-23d3551a51fd" width="100%" controls muted>
+  <video src="https://github.com/user-attachments/assets/bec02b5e-2e3f-4113-aa5a-23d3551a51fd" width="100%" controls muted autoplay loop>
     Your browser does not support the video tag.
   </video>
 </p>
