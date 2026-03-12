@@ -109,11 +109,8 @@ Makefile
 *.a
 
 # =====================
-# Images / Media generated during run
+# Media generated during run
 # =====================
-*.png
-*.jpg
-*.jpeg
 *.gif
 *.mp4
 *.avi
