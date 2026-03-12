@@ -18,7 +18,7 @@ Follow the system's performance across different stages, from full end-to-end de
 ### 1. Full System Demo
 **Description:** A comprehensive showcase of the end-to-end pipeline, including automated reconstruction and seamless animation.
 <p align="center">
-  <video src="INSERT_FULL_DEMO_URL_HERE" width="100%" controls muted autoplay loop>
+  <video src="https://github.com/user-attachments/assets/e7370a21-5c2a-4cfd-886a-fda3218838da" width="100%" controls muted autoplay loop>
     Your browser does not support the video tag.
   </video>
 </p>
@@ -28,7 +28,7 @@ Follow the system's performance across different stages, from full end-to-end de
 ### 2. Simulation Modeling
 **Description:** High-fidelity articulated object modeling and reconstruction within a controlled simulation environment.
 <p align="center">
-  <video src="INSERT_SIM_MODELING_URL_HERE" width="100%" controls muted>
+  <video src="https://github.com/user-attachments/assets/0005878d-892b-48d7-ac30-7da6905b3faf" width="100%" controls muted>
     Your browser does not support the video tag.
   </video>
 </p>
@@ -38,27 +38,17 @@ Follow the system's performance across different stages, from full end-to-end de
 ### 3. Real-World Modeling
 **Description:** Robust reconstruction using real sensor data (RGB-D/LiDAR) capturing complex articulated objects in the wild.
 <p align="center">
-  <video src="INSERT_REAL_MODELING_URL_HERE" width="100%" controls muted>
+  <video src="https://github.com/user-attachments/assets/55425cde-f360-47c6-a057-4b9373db6c16" width="100%" controls muted>
     Your browser does not support the video tag.
   </video>
 </p>
 
 ---
 
-### 4. Simulation Operation
-**Description:** Interactive manipulation and operational testing of reconstructed models within the physics-based simulator.
-<p align="center">
-  <video src="INSERT_SIM_OPERATION_URL_HERE" width="100%" controls muted>
-    Your browser does not support the video tag.
-  </video>
-</p>
-
----
-
-### 5. Real-World Operation
+### 4. Real-World Operation
 **Description:** Final deployment on physical hardware, demonstrating real-time response and operational stability.
 <p align="center">
-  <video src="INSERT_REAL_OPERATION_URL_HERE" width="100%" controls muted>
+  <video src="https://github.com/user-attachments/assets/bec02b5e-2e3f-4113-aa5a-23d3551a51fd" width="100%" controls muted>
     Your browser does not support the video tag.
   </video>
 </p>
