@@ -14,7 +14,7 @@
 ### 1. Full System Demo
 **Description:** A comprehensive showcase of the end-to-end pipeline, including automated reconstruction and seamless animation.
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/e7370a21-5c2a-4cfd-886a-fda3218838da" width="100%" controls muted autoplay loop>
+  <video src="assets/video/full.mp4" width="100%" controls muted>
     Your browser does not support the video tag.
   </video>
 </p>
