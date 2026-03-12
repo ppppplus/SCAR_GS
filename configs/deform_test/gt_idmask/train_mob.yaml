@@ -1,0 +1,53 @@
+###############################################
+# Global / system parameters
+###############################################
+ip: "127.0.0.1"
+port: 6009
+detect_anomaly: false
+quiet: false
+seed: 0
+
+save_iterations: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+checkpoint_iterations: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+# start_checkpoint: 
+base_model_path0: "./outputs/deform_test/gt_idmask/base"
+base_model_path1: "./outputs/deform_test/gt_idmask/end"
+
+start_iterations: 5000
+start_checkpoint: 
+stage2_iterations: 1000
+###############################################
+# ModelParams
+###############################################
+dataset_path0: "./datasets/deform_test/gt_idmask/start"
+dataset_path1: "./datasets/deform_test/gt_idmask/end"
+
+model_path: "./outputs/deform_test/gt_idmask/cargs"  
+images: "images"
+
+# 语义/特征相关
+semantic_features_type: siglip2
+semantic_features_dim: 3
+
+###############################################
+# PipelineParams
+###############################################
+convert_SHs_python: true
+compute_cov3D_python: false
+debug: false
+
+###############################################
+# OptimizationParams
+###############################################
+iterations: 100
+densification_interval: 500
+opacity_reset_interval: 3000
+
+densify_from_iter: 10000
+densify_until_iter: 15000
+densify_grad_threshold: 0.0002
+
+activate_screw_thresh: 0.1
+parsimony_weight: 0.002
+
+report_interval: 100

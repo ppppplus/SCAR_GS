@@ -1,0 +1,63 @@
+###############################################
+# Global / system parameters
+###############################################
+ip: "127.0.0.1"
+port: 6009
+detect_anomaly: false
+quiet: false
+seed: 0
+
+save_iterations: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 2000, 3000, 4000, 5000]
+checkpoint_iterations: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 2000, 3000, 4000, 5000]
+# start_checkpoint: 
+base_model_path: "./outputs/omni/kitchen_refri3/base"
+start_iterations: 5000
+start_checkpoint: 
+###############################################
+# ModelParams
+###############################################
+dataset_path: "./datasets/omni/kitchen_refri3/end"
+model_path: "./outputs/omni/kitchen_refri3/deform"  
+images: "images"
+
+# 语义/特征相关
+semantic_features_type: siglip2
+semantic_features_dim: 3
+
+###############################################
+# PipelineParams
+###############################################
+convert_SHs_python: true
+compute_cov3D_python: false
+debug: false
+
+###############################################
+# OptimizationParams
+###############################################
+iterations: 5000
+densification_interval: 500
+opacity_reset_interval: 3000
+
+densify_from_iter: 10000
+densify_until_iter: 15000
+densify_grad_threshold: 0.0002
+
+internal_gs_ratio: 0.01
+metric_sem_loss_weight: 0.1
+arap_loss_weight: 10.0
+
+activate_screw_thresh: 0.1
+parsimony_weight: 0.002
+
+report_interval: 20
+# screw learning rates
+self.part_index_lr: 0.1
+self.screw_lr: 0.003
+self.screw_confidence_lr: 0.01
+self.joint_angle_lr: 0.01
+
+DeformNet:
+  position_lr_init: 0.00016
+  position_lr_final: 0.0000016
+  position_lr_delay_mult: 0.01
+  deform_lr_max_steps: 35_000

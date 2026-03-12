@@ -1,0 +1,25 @@
+###############################################
+# Global / system parameters
+###############################################
+ip: "127.0.0.1"
+port: 6009
+detect_anomaly: false
+quiet: false
+seed: 0
+
+###############################################
+# ModelParams
+###############################################
+dataset_path: "./datasets/rsint/all/start"
+model_path: "./outputs/rsint/base"  
+output_path: "./outputs/rsint/all/"
+images: "images"
+
+# 语义/特征相关
+semantic_features_type: siglip2
+semantic_features_dim: 3
+
+###############################################
+# OptimizationParams
+###############################################
+iterations: 5000

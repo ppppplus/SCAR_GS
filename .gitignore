@@ -1,0 +1,119 @@
+my_scripts/
+
+# Features / compressed feature maps
+*_feat/
+*_feat_dim*/
+encoder/feat_comp/ckpts/
+
+###############################################
+# Build artifacts for CUDA/CPP extensions
+# (pointnet2, simple-knn, diff-gaussian-rasterization)
+###############################################
+# pointnet++ / pointnet_lib builds
+**/pointnet_lib/build/
+**/pointnet_lib/build/**/*
+**/pointnet_lib/**/temp.linux*/*
+**/pointnet_lib/**/*.so
+**/pointnet_lib/**/*.o
+
+# submodules compiled extensions
+submodules/*/build/
+submodules/*/build/**/*
+submodules/*/**/*.so
+submodules/*/**/*.o
+submodules/*/**/.ninja_deps
+
+# diff-gaussian-rasterization
+submodules/diff-gaussian-rasterization/build/
+submodules/diff-gaussian-rasterization/third_party/glm/doc/
+submodules/diff-gaussian-rasterization/third_party/glm/test/
+
+# simple-knn
+submodules/simple-knn/build/
+submodules/simple-knn/**/*.so
+submodules/simple-knn/**/*.o
+
+# SAM2
+submodules/segment-anything-2/build/
+submodules/segment-anything-2/demo/frontend/dist/
+submodules/segment-anything-2/demo/frontend/node_modules/
+# VSCode
+.vscode/
+.history/
+
+# =====================
+# Python
+# =====================
+__pycache__/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# PyInstaller
+*.spec
+
+# Logs
+*.log
+
+# =====================
+# Cache / Training Artifacts
+# =====================
+# Common ML / DL cache
+outputs/
+runs/
+checkpoints/
+logs/
+tensorboard/
+wandb/
+mlruns/
+
+# HuggingFace cache
+~/.cache/huggingface/
+huggingface/
+cache/
+hf_cache/
+
+# =====================
+# Large Data
+# =====================
+data/
+datasets/
+raw_data/
+tmp/
+temp/
+download/
+
+# =====================
+# C++ / Build files (if present)
+# =====================
+build/
+cmake-build*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.o
+*.so
+*.a
+
+# =====================
+# Images / Media generated during run
+# =====================
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi

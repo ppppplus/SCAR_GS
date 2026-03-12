@@ -1,0 +1,47 @@
+###############################################
+# Global / system parameters
+###############################################
+ip: "127.0.0.1"
+port: 6009
+detect_anomaly: false
+quiet: false
+seed: 0
+
+save_iterations: [1000, 2000, 3000, 4000, 5000]
+checkpoint_iterations: [1000, 2000, 3000, 4000, 5000]
+start_checkpoint: null
+
+###############################################
+# ModelParams
+###############################################
+dataset_path: "./datasets/deform_test/scale_constrain/start"
+model_path: "./outputs/deform_test/scale_constrain/base"  
+images: "images"
+
+# 语义/特征相关
+semantic_features_type: siglip2
+semantic_features_dim: 3
+
+###############################################
+# PipelineParams
+###############################################
+convert_SHs_python: true
+compute_cov3D_python: false
+debug: false
+
+###############################################
+# OptimizationParams
+###############################################
+iterations: 5000
+densification_interval: 500
+opacity_reset_interval: 3000
+
+densify_from_iter: 5000
+densify_until_iter: 15000
+densify_grad_threshold: 0.0002
+
+obj_logits_lr: 0.001
+
+metric_depth_loss_weight: 1.0
+metric_sem_loss_weight: 1.0
+metric_obj_loss_weight: 1.0

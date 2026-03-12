@@ -1,0 +1,61 @@
+###############################################
+# Global / system parameters
+###############################################
+ip: "127.0.0.1"
+port: 6009
+detect_anomaly: false
+quiet: false
+seed: 0
+
+save_iterations: []
+checkpoint_iterations: [600, 1500, 2000, 2500, 3000, 3500, 4000, 4500]
+# start_checkpoint: 
+base_model_path0: "./outputs/kitchen/base"
+base_model_path1: "./outputs/kitchen/set1/stove/end"
+
+start_iterations: 5000
+start_checkpoint: #1100
+iters: [100, 1000, 20000]
+###############################################
+# ModelParams
+###############################################
+dataset_path0: "./datasets/kitchen/set1/stove/start"
+dataset_path1: "./datasets/kitchen/set1/stove/startend"
+
+model_path: "./outputs/deform_test/gt_idmask/cargs"  
+images: "images"
+
+# 语义/特征相关
+semantic_features_type: siglip2
+semantic_features_dim: 3
+
+###############################################
+# PipelineParams
+###############################################
+convert_SHs_python: true
+compute_cov3D_python: false
+debug: false
+
+###############################################
+# OptimizationParams
+###############################################
+iterations: 10000
+densification_interval: 500
+opacity_reset_interval: 3000
+
+densify_from_iter: 10000
+densify_until_iter: 15000
+densify_grad_threshold: 0.0002
+
+activate_screw_thresh: 0.1
+parsimony_weight: 0.002
+
+report_interval: 1000
+
+mobility_lr: 3
+mobility_lr_render: 3
+# screw learning rates
+# self.part_index_lr: 0.1
+# self.screw_lr: 0.003
+# self.screw_confidence_lr: 0.01
+# self.joint_angle_lr: 0.01

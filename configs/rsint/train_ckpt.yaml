@@ -1,0 +1,53 @@
+###############################################
+# Global / system parameters
+###############################################
+ip: "127.0.0.1"
+port: 6009
+detect_anomaly: false
+quiet: false
+seed: 0
+
+save_iterations: [100, 300, 500, 700, 900, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000]
+checkpoint_iterations: [1000, 2000, 3000, 4000, 5000]
+start_checkpoint: null
+
+###############################################
+# ModelParams
+###############################################
+dataset_path: "./datasets/rsint/all/end"
+model_path: "./outputs/rsint/all/final"  
+images: "images"
+
+# 语义/特征相关
+semantic_features_type: siglip2
+semantic_features_dim: 3
+
+###############################################
+# PipelineParams
+###############################################
+convert_SHs_python: true
+compute_cov3D_python: false
+debug: false
+
+###############################################
+# OptimizationParams
+###############################################
+iterations: 5000
+densification_interval: 200
+opacity_reset_interval: 3000
+
+densify_from_iter: 1000
+densify_until_iter: 15000
+densify_grad_threshold: 0.0002
+
+metric_depth_loss_weight: 1.0
+metric_sem_loss_weight: 1.0
+metric_obj_loss_weight: 1.0
+
+feature_lr: 0.0025
+scaling_lr: 0
+# opacity_lr: 0
+semantic_feature_lr: 0
+rotation_lr: 0
+position_lr_init: 0.000
+mobility_lr: 0.0000

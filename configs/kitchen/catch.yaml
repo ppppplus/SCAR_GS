@@ -1,0 +1,28 @@
+###############################################
+# Global / system parameters
+###############################################
+ip: "127.0.0.1"
+port: 6009
+detect_anomaly: false
+quiet: false
+seed: 0
+
+###############################################
+# ModelParams
+###############################################
+dataset_path: "./datasets/kitchen/set1/stove/end"
+model_path: "./outputs/kitchen/base"  
+output_path: "./outputs/kitchen/set1/stove"
+images: "images"
+
+# 语义/特征相关
+semantic_features_type: siglip2
+semantic_features_dim: 3
+
+###############################################
+# OptimizationParams
+###############################################
+iterations: 5000
+min_points: 3000
+max_points: 20000
+vis: True

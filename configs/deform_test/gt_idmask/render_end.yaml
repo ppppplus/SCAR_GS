@@ -1,0 +1,24 @@
+###############################################
+# Global / system parameters
+###############################################
+ip: "127.0.0.1"
+port: 6009
+detect_anomaly: false
+quiet: false
+seed: 0
+
+###############################################
+# ModelParams
+###############################################
+dataset_path: "./datasets/deform_test/gt_idmask/end"
+model_path: "./outputs/deform_test/gt_idmask/base"  
+images: "images"
+
+# 语义/特征相关
+semantic_features_type: siglip2
+semantic_features_dim: 3
+
+###############################################
+# OptimizationParams
+###############################################
+iterations: 5000
