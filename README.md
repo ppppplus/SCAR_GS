@@ -1,20 +1,15 @@
 # SCAR-GS: Scene-level Contrastive Articulated Reconstruction via Actionable Semantic 3D Gaussian Splatting
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch 2.0+](https://img.shields.io/badge/pytorch-2.0+-red.svg)](https://pytorch.org/)
-[![CUDA 11.8+](https://img.shields.io/badge/cuda-11.8+-green.svg)](https://developer.nvidia.com/cuda-downloads)
-[![License](https://img.shields.io/badge/license-Research-orange.svg)](LICENSE.md)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) [![PyTorch 2.0+](https://img.shields.io/badge/pytorch-2.0+-red.svg)](https://pytorch.org/) [![CUDA 11.8+](https://img.shields.io/badge/cuda-11.8+-green.svg)](https://developer.nvidia.com/cuda-downloads) [![License](https://img.shields.io/badge/license-Research-orange.svg)](LICENSE.md)
 
-**[🎥 Full Video](Videolink)** | **[📊 Dataset Download](Datasetlink)** | **[📄 Paper (Coming Soon)](#)**
+**[🎥 Full Video](https://drive.google.com/file/d/10eAkIMuoavkwvtk4u2Q4sOQcA3dA6xQM/view?usp=sharing)** | **[📊 Dataset](https://drive.google.com/drive/folders/1LlVTydEwq-NpfUyoEiJO-n-GjXohCrZD?usp=sharing)** | **[📄 Paper (Coming Soon)](#)**
+
 **SCAR-GS** is a novel framework for reconstructing and animating articulated objects from RGB-D sequences using 3D Gaussian Splatting. Our method automatically discovers articulated joints, learns per-Gaussian mobility, and generates photorealistic animations with dual quaternion-based articulation.
 
 ---
 
 ## 🎬 Demonstration Videos
 
-Follow the system's performance across different stages, from full end-to-end demos to specific modeling and operation tasks in both simulation and real-world environments.
-
----
 
 ### 1. Full System Demo
 **Description:** A comprehensive showcase of the end-to-end pipeline, including automated reconstruction and seamless animation.

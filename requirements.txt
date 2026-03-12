@@ -1,0 +1,23 @@
+python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
+git+https://github.com/openai/CLIP.git
+opencv-python
+mss
+timm
+dataclasses
+ftfy
+regex
+fasttext
+scikit-learn
+lvis
+nltk
+
+# build pointnet_lib for nearest farthest point sampling
+export CUDA_HOME=$CONDA_PREFIX
+export CUDA_PATH=$CONDA_PREFIX
+cd articulation/point_utils/pointnet_lib
+python setup.py install
+
+cd submodules/simple_knn
+python setup.py install
+
+pip install submodules/diff-gaussian-rasterization
