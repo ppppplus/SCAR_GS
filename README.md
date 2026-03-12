@@ -14,8 +14,7 @@
 ### 1. Full System Demo
 **Description:** A comprehensive showcase of the end-to-end pipeline, including automated reconstruction and seamless animation.
 <p align="center">
-  <video width="100%" controls muted>
-    <source src="assets/video/full.mp4" type="video/mp4">
+  <video src="https://github.com/user-attachments/assets/e7370a21-5c2a-4cfd-886a-fda3218838da" width="100%" controls muted>
     Your browser does not support the video tag.
   </video>
 </p>
@@ -25,8 +24,7 @@
 ### 2. Simulation Modeling
 **Description:** High-fidelity articulated object modeling and reconstruction within a controlled simulation environment.
 <p align="center">
-  <video width="100%" controls muted>
-    <source src="assets/video/simulation.mp4" type="video/mp4">
+  <video src="https://github.com/user-attachments/assets/0005878d-892b-48d7-ac30-7da6905b3faf" width="100%" controls muted>
     Your browser does not support the video tag.
   </video>
 </p>
@@ -36,8 +34,7 @@
 ### 3. Real-World Modeling
 **Description:** Robust reconstruction using real sensor data (RGB-D/LiDAR) capturing complex articulated objects in the wild.
 <p align="center">
-  <video width="100%" controls muted>
-    <source src="assets/video/real.mp4" type="video/mp4">
+  <video src="https://github.com/user-attachments/assets/55425cde-f360-47c6-a057-4b9373db6c16" width="100%" controls muted>
     Your browser does not support the video tag.
   </video>
 </p>
@@ -47,8 +44,7 @@
 ### 4. Real-World Operation
 **Description:** Final deployment on physical hardware, demonstrating real-time response and operational stability.
 <p align="center">
-  <video width="100%" controls muted>
-    <source src="assets/video/manipulation.mp4" type="video/mp4">
+  <video src="https://github.com/user-attachments/assets/bec02b5e-2e3f-4113-aa5a-23d3551a51fd" width="100%" controls muted>
     Your browser does not support the video tag.
   </video>
 </p>
