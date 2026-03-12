@@ -14,11 +14,11 @@
 ### 1. Full System Demo
 **Description:** A comprehensive showcase of the end-to-end pipeline, including automated reconstruction and seamless animation.
 <p align="center">
-  <video src="assets/video/full.mp4" width="100%" controls muted>
+  <video width="100%" controls muted autoplay loop>
+    <source src="./assets/videos/full.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </p>
-
 ---
 
 ### 2. Simulation Modeling
